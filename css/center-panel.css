@@ -1,0 +1,193 @@
+.picture img {
+    width: 100%;
+}
+
+.picture img:hover {
+    opacity: 0.8;
+}
+
+.picture {
+    width: 100%;
+}
+
+.center-img-section {
+    display: flex;
+    padding: 20px 10px 10px;
+}
+
+.mechanic-section {
+    background-color: #f5f5f5;
+    padding: 0px 0px 5px;
+}
+
+.text-list {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #333;
+    font-size: 17px;
+}
+
+.fa-angle-right {
+    font-size: 35px;
+    color: #1E69B8;
+}
+
+.bg-img {
+    background-image: url("https://quanticalabs.com/Carservice/Template/images/samples/1920x1200/image_01.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center 0;
+    /* height: 100vh; */
+}
+
+.hexagon.small {
+    position: relative;
+}
+
+.fa-pencil {
+    font-size: 50px;
+    color: #E2E6E7;
+    border: 1px solid #E2E6E7;
+    /* border-left: 1px solid #E2E6E7; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+h6 {
+    text-align: center;
+    padding: 15px 15px 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.hexagon-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-list li {
+    padding: 100px 20px 50px;
+    width: 60%;
+    margin: auto;
+}
+
+.row-list li p {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 21px;
+    color: #FFF;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 0px 20px;
+}
+
+.rows {
+    display: flex;
+    gap: 20px;
+    color: white;
+
+}
+
+.contain-list {
+    display: flex;
+    padding: 25px 10px;
+    gap: 20px;
+}
+
+h3 {
+    font-weight: 200;
+    font-size: 17px;
+    padding: 10px 0px;
+}
+
+.content-div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 22px;
+}
+
+.content-div span i {
+    font-size: 45px;
+    color: #1E69B8;
+}
+
+.content-div p {
+    font-size: 14px;
+    color: #777;
+    line-height: 24px;
+}
+
+.center-side-img {
+    background-color: #f5f5f5;
+}
+
+.img-list {
+    display: flex;
+    align-items: center;
+}
+
+.img-list li {
+    width: 100%;
+    position: relative;
+}
+
+.img-list li img {
+    width: 100%;
+}
+
+.vertical-table {
+    height: 100%;
+    width: 100%;
+}
+
+.img-list li .view {
+    position: absolute;
+    top: 0;
+    /* background: rgba(62, 73, 91, 0.4); */
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.vertical-align-cell {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 60px 10px;
+    gap: 20px;
+    visibility: hidden;
+}
+
+.view:hover .vertical-align-cell {
+    visibility: visible;
+    transition: all .5s ease;
+    background: rgba(62, 73, 91, 0.4);
+    opacity: 0.8;
+}
+
+.vertical-align-cell p,
+.vertical-align-cell div {
+    padding: 0;
+}
+
+.last-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 10px;
+}

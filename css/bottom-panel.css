@@ -1,0 +1,150 @@
+.address-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    border-bottom: 1px solid #888a8e;
+}
+
+.information {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    padding: 15px 0px;
+    font-size: 21px;
+}
+
+.information i {
+    font-size: 40px;
+    color: #aeafb0;
+}
+
+.details {
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    align-items: flex-start;
+    padding: 35px 0px;
+}
+
+.details h6 {
+    color: white;
+    text-align: start;
+    padding: 20px 0px;
+}
+
+.bottom-info {
+    width: 24%;
+}
+
+.service-div li i {
+    color: #aeafb0;
+}
+
+.address-about-div {
+    line-height: 25px;
+}
+
+.address-about-div,
+.address-about-div li a {
+    color: white;
+}
+
+/* .text-info{
+    min-width: 40%;
+} */
+
+.service-div li,
+.days-list li {
+    color: white;
+    line-height: 25px;
+}
+
+.days-list li,
+.text-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons li a i {
+    color: #aeafb0;
+    padding: 10px;
+    border: 1px solid #aeafb0;
+    font-size: 20px;
+}
+
+.social-icons li a i:hover,
+.box-lists li:hover {
+    color: white;
+    border: 1px solid white;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.box-lists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.box-lists li {
+    font-size: 13px;
+    padding: 10px;
+    border: 1px solid #888A8E;
+    color: #aeafb0;
+}
+
+.last-section {
+    background-color: white;
+}
+
+.bottom-panel-last div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px 0px;
+    gap: 5px;
+}
+
+.bottom-panel-last div span {
+    color: #A4AAB3;
+    font-family: 'Open Sans';
+    line-height: 24px;
+}
+
+.bottom-panel-last div a {
+    color: #777;
+}
+
+.bottom-panel-last {
+    position: relative;
+}
+
+.fa-angle-up {
+    content: "";
+    position: fixed;
+    padding: 15px 20px;
+    background-color: #26262866;
+    font-size: 25px;
+    color: white;
+    bottom: 30px;
+    right: 30px;
+}
+.bi-puzzle{
+    position: fixed;
+    padding: 8px 10px;
+    background-color: #26262866;
+    font-size: 30px;
+    color: white;
+    top: 60px;
+    right: 0;
+}
+.fa-angle-up:hover{
+    background-color: #1E69B8;
+}

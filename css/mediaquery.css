@@ -1,0 +1,203 @@
+/*  */
+
+/*mobile-view  */
+@media only screen and (min-width:320px) {
+    .container {
+        width: 100%;
+    }
+
+    .middle-side,
+    .image-section,
+    .center-img-section,
+    .contain-list,
+    .img-list,
+    .center-bottom-panel,
+    .address-info,
+    .details {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ul-list {
+        display: flex;
+        gap: 6px;
+        /* flex-wrap: wrap; */
+    }
+
+    .ul-list ul li a {
+        font-size: 10px;
+    }
+
+    .text-list {
+        font-size: 14px;
+    }
+
+    .last-div h3 {
+        font-size: 14px;
+    }
+
+    .last-div .btn {
+        padding: 10px;
+    }
+
+    .information {
+        font-size: 16px;
+    }
+
+    .text-content {
+        width: 100%;
+    }
+
+    .bottom-info {
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .vertical-align-cell {
+        padding: 90px 10px;
+    }
+
+}
+
+/* tablet-view */
+@media only screen and (min-width:768px) {
+
+    .container,
+    .image-section {
+        width: 100%;
+    }
+
+    .main-content {
+        width: 95%;
+        margin: auto;
+    }
+
+    .middle-side,
+    .center-img-section,
+    .img-list,
+    .address-info {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .image-section,
+    .center-bottom-panel,
+    .flex-div {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    h4 {
+        font-size: 12px;
+    }
+
+    .p-tag {
+        font-size: 15px;
+    }
+
+    img {
+        width: 50%;
+        height: 100%;
+    }
+
+    .row-list li {
+        padding: 100px 20px 50px;
+        width: 80%;
+        margin: auto;
+    }
+
+    .contain-list,
+    .details {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .vertical-align-cell {
+        padding: 19px 10px;
+    }
+
+    .vertical-align-cell .button .btn2 {
+        padding: 12px;
+    }
+
+    .last-div .btn {
+        padding: 19px 24px 20px;
+    }
+
+    .text-content .p-para {
+        font-size: 15px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    .bottom-info {
+        width: 50%;
+    }
+
+    .flexible {
+        display: flex;
+        width: 100%;
+        gap: 20px;
+    }
+
+}
+
+/* labtop view */
+@media only screen and (min-width:1024px) {
+    .container {
+        width: 100%;
+    }
+
+    .main-content {
+        width: 80%;
+        margin: auto;
+    }
+
+    .middle-side,
+    .image-section,
+    .center-img-section,
+    .contain-list,
+    .img-list,
+    .center-bottom-panel,
+    .address-info,
+    .details {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .flex-div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ul-list ul li a {
+        font-size: 14px;
+    }
+
+    .ul-list {
+        display: flex;
+        gap: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .vertical-align-cell {
+        padding: 40px 10px;
+    }
+
+}
+
+@media only screen and (min-width:1300px) {
+    .vertical-align-cell {
+        padding: 68px 10px;
+    }
+}

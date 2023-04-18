@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    /* font-family: 'Fjalla One', sans-serif; */
+    /* font-family: 'Open Sans'; */
+    /* font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;*/
+    font-family: 'Roboto', sans-serif;   
+}
+
+li {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
